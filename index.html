@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Conference</title>
+    <title>NSG - 2016</title>
 
     <!-- css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link type="text/css" rel="stylesheet" href="assets/clock_assets/flipclock.css" />
 </head>
 <body data-spy="scroll" data-target="#site-nav">
     <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
@@ -24,7 +25,7 @@
                         <!-- logo image  -->
                         <img src="assets/images/logo.png" alt="Logo">
 
-                        Conference 2015
+                        Node School Gurgaon
                     </a>
                 </div>
 
@@ -47,27 +48,30 @@
                     <li><a data-scroll href="#partner">Partner</a></li>                  
                     <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
                     <li><a data-scroll href="#faq">FAQ</a></li>
-                    <li><a data-scroll href="#photos">Photos</a></li>
-                
+                    <!--<li><a data-scroll href="#photos">Photos</a></li>-->
                 </ul>
             </div>
         </div><!-- /.container -->
     </nav>
 
     <header id="site-header" class="site-header valign-center"> 
+        <div id="particles-js"></div>
         <div class="intro">
 
-            <h2>25 April, 2015 / Townhall California</h2>
+            <h2>24 September, 2016</h2>
             
-            <h1>Freelancer Conference 2015</h1>
+            <h1>Node School Gurgaon</h1>
             
-            <p>First &amp; Largest Conference</p>
-            
-            <a class="btn btn-white" data-scroll href="#registration">Register Now</a>
-        
+            <p>First Node School Meet in Gurgaon.</p>
+            <p>Event Start:</p>
+            <p id="defaultCountdown" class="col-md-offset-3">
+                
+                <span  class="clock-builder-output"></span>
+            </p>
+            <!--<a class="btn btn-white" data-scroll href="#registration">Register Now</a>-->
         </div>
     </header>
-
+    
     <section id="about" class="section about">
         <div class="container">
             <div class="row">
@@ -106,28 +110,37 @@
     <section id="facts" class="section bg-image-1 facts text-center">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-1">
+                    &nbsp;
+                </div>
+                <div class="col-sm-2">
 
                     <i class="ion-ios-calendar"></i>
-                    <h3>2015<br>June 25</h3>
+                    <h3>2016<br>September 24</h3>
                 
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
 
                     <i class="ion-ios-location"></i>
-                    <h3>California<br>USA</h3>
+                    <h3>Gurgaon<br>Haryana</h3>
                 
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
 
                     <i class="ion-pricetags"></i>
-                    <h3>150<br>Tickets</h3>
+                    <h3>25<br>Tickets</h3>
                 
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                 
                     <i class="ion-speakerphone"></i>
-                    <h3>06<br>Speakers</h3>
+                    <h3>02<br>Speakers</h3>
+                
+                </div>
+                <div class="col-sm-2">
+                
+                    <i class="ion-speakerphone"></i>
+                    <h3>02<br>Workshops</h3>
                 
                 </div>
             </div><!-- row -->
@@ -183,90 +196,9 @@
                             <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
                             <li><a href=""><i class="ion-social-googleplus"></i></a></li>
                         </ul>
-
-                    </div><!-- /.speaker -->
-                </div><!-- /.col-md-4 -->
-
-                <div class="col-md-4">
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-3.jpg">
-                        </figure>
-
-                        <h4>Jhon Smith</h4>
-
-                        <p>CEO of Peren</p>
-
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-
                     </div><!-- /.speaker -->
                 </div><!-- /.col-md-4 -->
             </div><!-- /.row -->
-
-            <div class="row">
-                <div class="col-md-4">
-
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-4.jpg">
-                        </figure>
-
-                        <h4>Jhon Smith</h4>
-
-                        <p>CEO of Peren</p>
-
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-5.jpg">
-                        </figure>
-
-                        <h4>Jhon Smith</h4>
-
-                        <p>CEO of Peren</p>
-
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="speaker">
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="assets/images/speakers/speaker-6.jpg">
-                        </figure>
-                        <h4>Jhon Smith</h4>
-                        <p>CEO of Peren</p>
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -275,7 +207,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Registration &amp; Pricing</h3>
+                    <h3 class="section-title">Registration:</h3>
                 </div>
             </div>
                 
@@ -356,38 +288,119 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Event Schedule</h3>
+                    <h3 class="section-title">Events Schedule</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="09:00">09:00 am</time> - <time datetime="22:00">10:00 am</time>
+            <div class="outer-tabs">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs schedule_tabs" role="tablist">
+                    <li role="presentation" class="">
+                        <a href="#Talks" aria-controls="Talks" role="tab" data-toggle="tab" aria-expanded="true">
+                            Talks<br><span></span>
+                        </a>
+                    </li>
+                    <li role="presentation" class="">
+                        <a href="#Workshop" aria-controls="Workshop" role="tab" data-toggle="tab" aria-expanded="false">
+                            Workshops<br><span></span>
+                        </a>
+                    </li>
+                </ul>
+    
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="Talks">
+                        <div class="schedule_item">
+                            <div class="panel-heading">
+                                <div class="speakers">
+                                    <img src="./Conference_files/s-1.png" alt="speaker" class="thum-s" data-toggle="tooltip" data-placement="top" title="" data-original-title="JHON SMITH">
+                                </div>
+                                <div class="time"><span class="ion-clock"></span>11:00 AM - 11:40 AM</div>
+                                <h4 class="panel-title">
+                                    <a class="schedule_expand" href="http://markup.themewagon.com/conference_pro/#">
+                                        <div class="full-width">
+                                            First Talk
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-1">
+                                <div class="panel-body">
+                                    To be Announced.
+                                </div>
+                            </div>
                         </div>
-                        <h3>Welcome and intro</h3>
-                        <p>Mustafizur Khan, SD Asia</p>
+                        <div class="schedule_item">
+                            <div class="panel-heading">
+                                <div class="speakers">
+                                    <img src="./Conference_files/s-2.png" alt="speaker" class="thum-s" data-toggle="tooltip" data-placement="top" title="" data-original-title="JHON SMITH">
+                                </div>
+                                <div class="time"><span class="ion-clock"></span>11:50 PM - 12:30 PM</div>
+                                <h4 class="panel-title">
+                                    <a class="schedule_expand" href="http://markup.themewagon.com/conference_pro/#">
+                                        <div class="full-width">
+                                            Second Talk
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-1">
+                                <div class="panel-body">
+                                    To be Announced.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">10:00 am</time> - <time datetime="22:00">10:00 am</time>
+                    <div role="tabpanel" class="tab-pane" id="Workshop">
+                        <div class="schedule_item">
+                            <div class="panel-heading">
+                                <div class="speakers">
+                                    <img src="./Conference_files/s-1.png" alt="speaker" class="thum-s" data-toggle="tooltip" data-placement="top" title="" data-original-title="JHON SMITH">
+                                </div>
+                                <div class="time"><span class="ion-clock"></span> 01:30 PM - 04:00 PM</div>
+                                <h4 class="panel-title">
+                                    <a class="schedule_expand collapsed" href="http://markup.themewagon.com/conference_pro/#">
+                                        <div class="full-width">
+                                            Beginer Lvl - Basics of JavaScript & Intro to NodeJs 
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
+                                <div class="panel-body">
+                                    Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                    difficult to get to the phone if you are in the middle of something and you don’t
+                                    want to miss that important call that could be the start of an exciting new business
+                                    opportunity, so let us answer it for you.
+                                </div>
+                            </div>
                         </div>
-                        <h3>Tips and share</h3>
-                        <p>Mustafizur Khan, SD Asia</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="schedule-box">
-                        <div class="time">
-                            <time datetime="10:00">10:00 am</time> - <time datetime="22:00">10:00 am</time>
+                        <div class="schedule_item">
+                            <div class="panel-heading">
+                                <div class="speakers">
+                                    <img src="./Conference_files/s-2.png" alt="speaker" class="thum-s" data-toggle="tooltip" data-placement="top" title="" data-original-title="JHON SMITH">
+                                </div>
+                                <div class="time"><span class="ion-clock"></span>01:30 PM - 04:00 PM</div>
+                                <h4 class="panel-title">
+                                    <a class="schedule_expand" href="http://markup.themewagon.com/conference_pro/#">
+                                        <div class="full-width">
+                                            Intermidiate Lvl - Creating Restfull Server Using Hapi
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-1">
+                                <div class="panel-body">
+                                    Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+                                    difficult to get to the phone if you are in the middle of something and you don’t
+                                    want to miss that important call that could be the start of an exciting new business
+                                    opportunity, so let us answer it for you.
+                                </div>
+                            </div>
                         </div>
-                        <h3>View from the top</h3>
-                        <p>Mustafizur Khan, SD Asia</p>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <section id="partner" class="section partner">
@@ -398,34 +411,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-5">
                     <a class="partner-box partner-box-1"></a>
                 </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-2"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-3"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-4"></a>
-                </div>
             </div>
-
-            <div class="row">
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-5"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-6"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-7"></a>
-                </div>
-                <div class="col-sm-3">
-                    <a class="partner-box partner-box-8"></a>
-                </div>
-            </div>   
     </section>
 
     <section id="faq" class="section faq">
@@ -506,57 +495,57 @@
             </div>
     </section>
 
-    <section id="photos" class="section photos">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="section-title">Photos</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="grid">
+    <!--<section id="photos" class="section photos">-->
+    <!--    <div class="container">-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-md-12">-->
+    <!--                <h3 class="section-title">Photos</h3>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-md-12">-->
+    <!--                <ul class="grid">-->
                         
-                        <li class="grid-item grid-item-sm-6">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">
-                        </li>
+    <!--                    <li class="grid-item grid-item-sm-6">-->
+    <!--                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">-->
+    <!--                    </li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
-                        </li>
+    <!--                    <li class="grid-item grid-item-sm-3">-->
+    <!--                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">-->
+    <!--                    </li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
-                        </li>
+    <!--                    <li class="grid-item grid-item-sm-3">-->
+    <!--                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">-->
+    <!--                    </li>-->
                     
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">
-                        </li>
+    <!--                    <li class="grid-item grid-item-sm-3">-->
+    <!--                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">-->
+    <!--                    </li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">
-                        </li>
+    <!--                    <li class="grid-item grid-item-sm-3">-->
+    <!--                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">-->
+    <!--                    </li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">
-                        </li>
+    <!--                    <li class="grid-item grid-item-sm-3">-->
+    <!--                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">-->
+    <!--                    </li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">
-                        </li>
+    <!--                    <li class="grid-item grid-item-sm-3">-->
+    <!--                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">-->
+    <!--                    </li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
-                        </li>
+    <!--                    <li class="grid-item grid-item-sm-3">-->
+    <!--                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">-->
+    <!--                    </li>-->
 
-                        <li class="grid-item grid-item-sm-3">
-                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
-                        </li>
-                    </ul>
-                </div>
-            </div>            
-        </div>
-    </section>
+    <!--                    <li class="grid-item grid-item-sm-3">-->
+    <!--                        <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">-->
+    <!--                    </li>-->
+    <!--                </ul>-->
+    <!--            </div>-->
+    <!--        </div>            -->
+    <!--    </div>-->
+    <!--</section>-->
 
     <section id="location" class="section location">
         <div class="container">
@@ -564,11 +553,18 @@
                 <div class="col-sm-3">
                     <h3 class="section-title">Event Location</h3>
                     <address>
-                        <p>Eardenia<br> The Grand Hall<br> House # 08, Road #52, Street<br> Phone: +1159t3764<br> Email: example@mail.com</p>
+                        <p>
+                            Scry Analytics India Pvt. Ltd<br>
+                            6th floor, Unit 617 and 618,<br>
+                            JMD Megapolis,<br> 
+                            Sector-48,  Sohna Road,<br>
+                            Gurgaon- 122001<br> 
+                            Phone: +91-9582631119<br>
+                        </p>
                     </address>
                 </div>
                 <div class="col-sm-9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96706.50013548559!2d-78.9870674333782!3d40.76030630398601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sbd!4v1436299406518" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.990555744457!2d77.03604161507785!3d28.41954183250233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d229e8903adbb%3A0xce5171e7f7efb3f5!2sJMD+MEGAPOLIS%2C+Sector+48%2C+Gurgaon%2C+Haryana+122018!5e0!3m2!1sen!2sin!4v1472372126671" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -594,6 +590,10 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="bower_components/particles.js/particles.js"></script>
+    <script type="text/javascript" src="assets/clock_assets/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="assets/clock_assets/flipclock.js"></script>
+    <script type="text/javascript" src="assets/js/nivo-lightbox.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
