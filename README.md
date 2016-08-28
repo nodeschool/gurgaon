@@ -13,6 +13,9 @@ Repo for organizing the gurgaon nodeschools
 |Second Talk|	11:50 PM - 12:30 PM |   |Intermidiate Lvl - Creating Restfull Server Using Hapi|01:30 PM - 04:00 PM|
 |           |                       |   |Tea break for 10 min during workshop  |03:00 PM  |
 
+#Node Sticker
+http://www.finnpauls.de/nodeschool-stickerify/
+
 ### Prerequisites
 
 * A laptop (Mac, Windows, and Linux are all supported) 
