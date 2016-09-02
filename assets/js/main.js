@@ -245,3 +245,32 @@ var opts = {
 var countdown = 1474696800 - ((new Date().getTime())/1000); // from: 09/24/2016 11:30 am +0530
 countdown = Math.max(1, countdown);
 $('.clock-builder-output').FlipClock(countdown, opts);
+
+// $("#DateCountdown").TimeCircles({
+//     "animation": "smooth",
+//     "bg_width": 0.1,
+//     "fg_width": 0.05333333333333334,
+//     "circle_bg_color": "#60686F",
+//     "time": {
+//         "Days": {
+//             "text": "Days",
+//             "color": "#c066ff",
+//             "show": true
+//         },
+//         "Hours": {
+//             "text": "Hours",
+//             "color": "#b55dfe",
+//             "show": true
+//         },
+//         "Minutes": {
+//             "text": "Minutes",
+//             "color": "#7c62fe",
+//             "show": true
+//         },
+//         "Seconds": {
+//             "text": "Seconds",
+//             "color": "#ae99ff",
+//             "show": true
+//         }
+//     }
+// });
