@@ -15,6 +15,8 @@ Repo for organizing the gurgaon nodeschools
 
 #Node Sticker
 http://www.finnpauls.de/nodeschool-stickerify/
+* Background: #4cb4e7
+* Foreground: #ffffff
 
 ### Prerequisites
 
