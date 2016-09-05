@@ -920,6 +920,9 @@ body .flip-clock-wrapper .flip-clock-meridium a, body .flip-clock-small-wrapper 
 body .flip-clock-dot { 
   background: #ccc; 
 }
+
+/* application styles */
+
 .defaultCountdown {
   
 }
@@ -942,3 +945,17 @@ body .flip-clock-dot {
     width: 50px;
     height: 50px;
 }
+
+.clock-builder-output {
+  display: inline-block;
+}
+.flip-clock-wrapper {
+  width: unset !important;
+}
+
+
+
+
+
+
+
