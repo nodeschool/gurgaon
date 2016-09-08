@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    smoothScroll.init();
 
     $('.schedule_expand').on('click', function(e){
         e.preventDefault();
