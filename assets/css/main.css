@@ -364,8 +364,9 @@ ul li {
     font-size: 30px;
 }
 .site-header .intro p {
+    width: 650px;
+    margin: 10px auto 0;
     font-size: 20px;
-    margin-bottom: 10px;
     font-weight: 300;
 }
 
