@@ -1,0 +1,7 @@
+http://jsbin.com/sokohe/3/edit?js,console  => Heterogeneous collections
+
+http://jsbin.com/tovaceq/3/edit?js,console => First class functions
+
+http://jsbin.com/lufoqi/3/edit?js,console => Prototype inheritance
+
+http://jsbin.com/hucegiw/2/edit?js,console => Polyfills 
