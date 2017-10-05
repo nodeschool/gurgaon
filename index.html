@@ -46,8 +46,8 @@
                     <li><a href="./september_24_2016_event_content/">September 2016 Content</a></li>
                     <li class="active"><a data-scroll href="#about">About</a></li>
                     <!-- <li><a data-scroll href="#speakers">Speakers</a></li>-->
-                    <!-- <li><a data-scroll href="#schedule">Schedule</a></li>                   -->
-                    <!-- <li><a data-scroll href="#registration">Registration</a></li>                   -->
+                     <!--<li><a data-scroll href="#schedule">Schedule</a></li>-->
+                     <li><a data-scroll href="#registration">Registration</a></li>
                     <li><a data-scroll href="#partner">Partner</a></li>
                     <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
                     <li><a data-scroll href="#faq">FAQ</a></li>
@@ -62,14 +62,14 @@
         <div id="particles-js"></div>
         <div class="intro">
             <p>&nbsp;</p>
-            <h2>Coming Soon</h2>
+             <h2>28th October 2017</h2>
             <h1>Node School Gurgaon</h1>
-            <p>Node School Meet in Gurgaon.</p>
+             <p>Node School Meet in Gurgaon.</p>
             <!--<p>Event </p>-->
 
-            <!-- <p id="defaultCountdown">
+            <p id="defaultCountdown">
                 <span class="clock-builder-output"></span>
-            </p> -->
+            </p>
             <!--<a class="btn btn-white" data-scroll href="#registration">Register Now</a>-->
         </div>
     </header>
@@ -169,11 +169,56 @@
                     <h3 class="section-title">Registration</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>Thanks for your inerest, however registration will open soon.</p>
+            <form method='POST' action="https://formspree.io/brij.kishor@jabong.com" id="registration-form">
+                <div class="row">
+                    <div class="col-md-12" id="registration-msg" style="display:none;">
+                        <div class="alert"></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone" id="cell" name="cell" required>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Address" id="address" name="address">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="City" id="city" name="city" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Zip Code" id="zip" name="zip" >
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" name="program" id="program" required>
+                                <option readonly>Select Your Workshop</option>
+                                <option>Beginner Level</option>
+                                <option>Intermidiate Level</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="text-center mt20 col-sm-2 col-sm-offset-5">
+                    <button type="submit" class="btn btn-black" id="registration-submit-btn">Submit</button>
+                </div>
+                <input type="hidden" name="_subject" value="New Registration Node School!" />
+                <!--<input type="hidden" name="_next" value="//nodeschool.io/gurgaon/#registration"/> -->
+                <input type="text" name="_gotcha" style="display:none" />
+            </form>
         </div>
     </section>
     <section id="important-date" class="section important-date">
@@ -193,13 +238,13 @@
                                 <td><strong>Notification Date</strong></td>
                             </tr>
                             <tr>
-                                <td>Before September 15, 2017</td>
-                                <td>On September 17, 2017</td>
+                                <td>Before 20th October 2017</td>
+                                <td>On 22nd October 2017</td>
                             </tr>
-                            <tr>
+                            <!--<tr>
                                 <th>Registration</th>
                                 <td colspan="2">Registration will open soon.</td>
-                            </tr>
+                            </tr>-->
                         </tbody>
                     </table>
                 </div>
@@ -239,7 +284,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingOne">
                                 <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     What is the price of the ticket ?
                                     </a>
                                 </h4>
@@ -313,7 +358,7 @@
                         <p>
                             Jabong<br>
                             82 A, Sector-18<br>
-                            Gurgaon- 122001<br> 
+                            Gurgaon- 122001<br>
                             Phone: +91-9582631119<br>
                         </p>
                     </address>
@@ -334,7 +379,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="theme-creadit-heading-one">
                                 <h4 class="panel-title">
-                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#credit-accordion" href="#theme-credit-collapse-one" aria-expanded="true" aria-controls="theme-credit-collapse-one"> 
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#credit-accordion" href="#theme-credit-collapse-one" aria-expanded="true" aria-controls="theme-credit-collapse-one">
                                     Theme
                                     </a>
                                 </h4>

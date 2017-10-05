@@ -232,18 +232,18 @@ particlesJS.load('particles-js', 'assets/js/particlesjs-config.json', function()
 });
 
 //http://www.dwuser.com/education/content/easy-javascript-jquery-countdown-clock-builder/
-FlipClock.Lang.Custom = { 
-    days:'Days', 
-    hours:'Hours', 
-    minutes:'Minutes', 
+FlipClock.Lang.Custom = {
+    days:'Days',
+    hours:'Hours',
+    minutes:'Minutes',
     seconds:'Seconds'
 };
 var opts = {
 	clockFace: 'DailyCounter',
 	countdown: true,
 	language: 'Custom'
-};  
-var countdown = 1474696800 - ((new Date().getTime())/1000); // from: 09/24/2016 11:30 am +0530
+};
+var countdown = 1509129000 - ((new Date().getTime())/1000); // from: 09/24/2016 11:30 am +0530
 countdown = Math.max(1, countdown);
 $('.clock-builder-output').FlipClock(countdown, opts);
 
