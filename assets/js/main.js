@@ -176,12 +176,12 @@ $(document).ready(function () {
 // Countdown jquery
 
 $(function () {
-    var day = 31,
-        month = 12,
-        year = 2016;
-    var austDay = new Date(year, month - 1, day);
-    $('#defaultCountdown').countdown({until: austDay});
-    $('#year').text(austDay.getFullYear());
+    // var day = 31,
+    //     month = 12,
+    //     year = 2016;
+    // var austDay = new Date(year, month - 1, day);
+    // $('#defaultCountdown').countdown({until: austDay});
+    // $('#year').text(austDay.getFullYear());
 });
 
 $(function () {
