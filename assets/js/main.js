@@ -243,7 +243,7 @@ var opts = {
 	countdown: true,
 	language: 'Custom'
 };
-var countdown = 1509129000 - ((new Date().getTime())/1000); // from: 09/24/2016 11:30 am +0530
+var countdown = 1509165031 - ((new Date().getTime())/1000); // from: 09/24/2016 11:30 am +0530
 countdown = Math.max(1, countdown);
 $('.clock-builder-output').FlipClock(countdown, opts);
 
